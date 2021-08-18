@@ -338,7 +338,9 @@ module.exports = {
      *
      * Require for variables to be put first in a block (a rule or in root).
      */
-    'scss/dollar-variable-first-in-block': true,
+    'scss/dollar-variable-first-in-block': [true, {
+      except: ['root'],
+    }],
 
     /*
      * https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/dollar-variable-no-missing-interpolation/README.md
