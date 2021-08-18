@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-config-james-powell-dev",
+  "version": "1.0.1",
+  "description": "Stylelint config by jamespowell.dev for React, Vue & vanilla JS projects",
+  "main": "index.js",
+  "repository": "https://github.com/Blazzike/stylelint-config-james-powell-dev",
+  "author": "James Powell (https://jamespowell.dev/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "yarn lint && stylelint-find-rules --unused --config index.js && stylelint-find-rules --unused --config sass.js",
+    "fix": "yarn lint --fix",
+    "publish": "yarn test"
+  },
+  "dependencies": {
+    "stylelint-scss": "^3.20.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/eslint-parser": "^7.15.0",
+    "eslint": "^7.32.0",
+    "eslint-config-james-powell-dev": "^1.0.5",
+    "stylelint": "^13.13.1",
+    "stylelint-find-rules": "^2.2.0"
+  }
+}
