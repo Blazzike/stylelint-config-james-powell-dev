@@ -324,18 +324,14 @@ module.exports = {
      *
      * Require a single empty line or disallow empty lines after $-variable declarations (Autofixable).
      */
-    'scss/dollar-variable-empty-line-after': ['always', {
-      except: ['last-nested'],
-    }],
+    'scss/dollar-variable-empty-line-after': false,
 
     /*
      * https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/dollar-variable-empty-line-before/README.md
      *
      * Require a single empty line or disallow empty lines before $-variable declarations (Autofixable).
      */
-    'scss/dollar-variable-empty-line-before': ['always', {
-      except: ['first-nested'],
-    }],
+    'scss/dollar-variable-empty-line-before': false,
 
     /*
      * https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/dollar-variable-first-in-block/README.md
