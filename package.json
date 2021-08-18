@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-james-powell-dev",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stylelint config by jamespowell.dev for React, Vue & vanilla JS projects",
   "main": "index.js",
   "repository": "https://github.com/Blazzike/stylelint-config-james-powell-dev",
