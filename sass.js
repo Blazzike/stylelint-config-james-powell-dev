@@ -22,6 +22,17 @@ module.exports = {
     }],
 
     /*
+     * Color
+     */
+
+    /*
+     * https://stylelint.io/user-guide/rules/list/color-function-notation
+     *
+     * Specify modern or legacy notation for applicable color-functions (Autofixable).
+     */
+    'color-function-notation': null,
+
+    /*
      * At-rule
      */
 
@@ -324,14 +335,14 @@ module.exports = {
      *
      * Require a single empty line or disallow empty lines after $-variable declarations (Autofixable).
      */
-    'scss/dollar-variable-empty-line-after': false,
+    'scss/dollar-variable-empty-line-after': null,
 
     /*
      * https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/dollar-variable-empty-line-before/README.md
      *
      * Require a single empty line or disallow empty lines before $-variable declarations (Autofixable).
      */
-    'scss/dollar-variable-empty-line-before': false,
+    'scss/dollar-variable-empty-line-before': null,
 
     /*
      * https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/dollar-variable-first-in-block/README.md
