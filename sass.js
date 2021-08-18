@@ -18,7 +18,7 @@ module.exports = {
      * Require a newline or disallow whitespace after the closing brace of blocks (Autofixable).
      */
     'block-closing-brace-newline-after': ['always', {
-      ignoreAtRules: ['if'],
+      ignoreAtRules: ['if', 'else'],
     }],
 
     /*
