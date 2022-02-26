@@ -768,9 +768,9 @@ escape-string-regexp@^4.0.0:
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
 eslint-config-james-powell-dev@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-james-powell-dev/-/eslint-config-james-powell-dev-1.0.5.tgz#c684c28ad3bbe3b4b81f3093177bf295981f8f4b"
-  integrity sha512-Q/ZxA+McpQvlv8Vu8rveklYbYMyQfSM+z1S7d2r4ySyDDeGPKok4APkuEqbpJFykc1kCtlxnZgwycfRRwSBdPQ==
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/eslint-config-james-powell-dev/-/eslint-config-james-powell-dev-1.0.9.tgz#0416db5bedd605169552bf8efc25cc989b4161fb"
+  integrity sha512-dCg6MColuuNU4kxw59A6lL+V8tfKUrhLUL1b9nQE/8fhUT6d+B7GSqzKMkI1JvNmVluEiMaMDo339FqqahwXpQ==
 
 eslint-scope@^5.1.1:
   version "5.1.1"
